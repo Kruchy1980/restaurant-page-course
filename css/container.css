@@ -1,0 +1,13 @@
+/* The container style css */
+
+.container {
+    width: 1180px;
+    margin: auto;
+    /* For smaller devices */
+    max-width: 100%;
+    padding: 20px 30px;
+}
+
+.container--smaller {
+    width: 940px;
+}

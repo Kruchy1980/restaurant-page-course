@@ -1,0 +1,21 @@
+/* social icons */
+
+.footer {
+    display: flex;
+    background: #000;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    padding: 20px;
+}
+
+
+/* links */
+
+.footer__link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #eee;
+    margin: 0 10px;
+}

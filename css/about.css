@@ -1,0 +1,69 @@
+/* That file contains styles about */
+
+
+/* Main about */
+
+.about {
+    display: flex;
+    color: #333;
+    align-items: center;
+}
+
+
+/* About text main style */
+
+.about__text {
+    padding: 20px;
+}
+
+
+/* Header about */
+
+.about__header {
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
+
+/* For lesser than 768px */
+
+@media (min-width: 840px) {
+    .about__header {
+        font-size: 2em;
+    }
+}
+
+
+/* Text - paragrphs*/
+
+.about__paragraph {
+    font-size: 1em;
+    line-height: 1.2;
+    color: #aaa;
+}
+
+
+/* Lower than 768px */
+
+@media (min-width: 840px) {
+    .about__paragraph {
+        font-size: 1.3em;
+        line-height: 1.4;
+    }
+}
+
+
+/* Image style */
+
+.about__image {
+    display: none;
+}
+
+
+/* Remove image if widthe lesser than 768px */
+
+@media (min-width: 840px) {
+    .about__image {
+        width: 40%;
+    }
+}

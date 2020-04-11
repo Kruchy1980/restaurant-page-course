@@ -1,0 +1,8 @@
+/* Map Styling */
+
+.route {
+    display: block;
+    width: 100%;
+    height: 50vh;
+    border: none;
+}

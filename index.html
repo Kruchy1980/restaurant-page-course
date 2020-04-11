@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Restauracja, w której zjesz tanio i smacznie">
+    <title>Restauracja "Polskie smaki"</title>
+    <!-- Bookmark icon -->
+    <link rel="icon" href="./bookmark-icon/restaurant.png">
+    <!-- Normalize file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+    <!-- Fonts link -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <!-- Stylesheet - main -->
+    <link rel="stylesheet" href="./css/global.css">
+    <!-- Stylesheet banner -->
+    <link rel="stylesheet" href="./css/main-banner.css">
+    <!-- Styleshet container -->
+    <link rel="stylesheet" href="./css/container.css">
+    <!-- Styleshet About -->
+    <link rel="stylesheet" href="./css/about.css">
+    <!-- Styleshet Navigation -->
+    <link rel="stylesheet" href="./css/main-navigation.css">
+
+    <!-- Styleshet Bookmrks -->
+    <link rel="stylesheet" href="./css/bookmarks.css">
+    <!-- Styleshet Menu -->
+    <link rel="stylesheet" href="./css/menu.css">
+    <!-- Styleshet Gallery -->
+    <link rel="stylesheet" href="./css/gallery.css">
+    <!-- Styleshet Contact-form -->
+    <link rel="stylesheet" href="./css/contact-form.css">
+    <!-- Styleshet Map -->
+    <link rel="stylesheet" href="./css/map.css">
+    <!-- Styleshet Footer -->
+    <link rel="stylesheet" href="./css/footer.css">
+    <!-- Styleshet Social icon -->
+    <link rel="stylesheet" href="./css/social-icon.css">
+</head>
+
+<body>
+    <nav class="main-navigation">
+        <div class="main-navigation__inner">
+            <!-- Logo navigation -->
+            <div class="main-navigation__logo">
+                <a href="#" class="main-navigation__logo-link">
+                    <img src="./images/logo.svg" alt="Restaurant logo" class="main-navigation__logo-image"> Polskie Smaki
+                </a>
+            </div>
+            <!-- Main navigation - list -->
+            <ul class="main-navigation__menu js-main-navigation__menu">
+                <li class="main-navigation__menu-item">
+                    <a href="#" class="main-navigation__menu-item__link">Domowa</a>
+                </li>
+                <li class="main-navigation__menu-item">
+                    <a href="#about" class="main-navigation__menu-item__link">O nas</a>
+                </li>
+                <li class="main-navigation__menu-item">
+                    <a href="#menu" class="main-navigation__menu-item__link">Menu</a>
+                </li>
+                <li class="main-navigation__menu-item">
+                    <a href="#gallery" class="main-navigation__menu-item__link">Galeria</a>
+                </li>
+                <li class="main-navigation__menu-item">
+                    <a href="#contact" class="main-navigation__menu-item__link">Kontakt</a>
+                </li>
+                <li class="main-navigation__menu-item">
+                    <a href="#route" class="main-navigation__menu-item__link">Jak dojechać</a>
+                </li>
+                <li class="main-navigation__menu-item">
+                    <a href="https://instagram.com" class="main-navigation__menu-item__link">
+                        <img src="./images/icons/social/instagram.svg" alt="Instagram" class="social-icon">
+                    </a>
+                </li>
+                <li class="main-navigation__menu-item">
+                    <a href="https://facebook.com" class="main-navigation__menu-item__link">
+                        <img src="./images/icons/social/facebook.svg" alt="Facebook" class="social-icon">
+                    </a>
+                </li>
+            </ul>
+            <button class="main-navigation__mobile-button js-main-navigation__mobile-button">
+                <img src="./images/icons/navigation.svg" alt="Hamburger" class="main-navigation__mobile-button-image">
+            </button>
+        </div>
+    </nav>
+    <!-- Banner section-->
+    <section class="main-banner">
+        <a href="#about" class="main-banner__button">
+            Poznaj nas lepiej !
+        </a>
+    </section>
+    <!-- About section -->
+    <div class="container" id="about">
+        <section class="about">
+            <div class="about__text">
+                <h3 class="about__header">Nie jesteśmy tylko restauracją</h3>
+                <p class="about__paragraph">
+                    Tworzymy zespół ludzim krórych pasją jest dbanie o każdy detal, który składa się na wyjątkowy wieczór spędzony u Nas. Nasi kucharze kreują dania nad których recepturą pracowali niekiedy połowę swojego życia , a tajniki swoich przepisów wynieśli z rodzinnych
+                    domów.
+                </p>
+                <p class="about__paragraph">
+                    Nasi kelnerzy to ludzie z pasją kochający tworzyć wyjątkowy klimat wokół naszych gości i serwować dania z elegancją i klasą. W naszej restauracji nie zabraknie nastrojowych dzwięków smacznego wystroju i pięknych widoków z okien. To idealne miejsce, by
+                    spędzić czas z uchochaną osobą, zjeść obiad w rodzinnej atomsferze, czy podziękować bliskiej osobie za to że jest.
+                </p>
+            </div>
+            <img src="./images/about-us.jpg" alt="About us" class="about__image">
+        </section>
+    </div>
+    <!-- Menu -->
+    <section class="bookmark bookmark--menu" id="menu">
+        <h2 class="bookmark__header">Menu</h2>
+        <p class="bookmark__description">Spójrz, co dla Ciebie przygotowaliśmy.</p>
+    </section>
+    <!-- Menu description -->
+    <div class="container">
+        <section class="menu">
+            <!-- First column -->
+            <div class="menu__column">
+                <h3 class="menu__header">Śniadania</h3>
+                <ul class="menu__list">
+                    <li class="menu__list--item">
+                        <div class="menu__position">
+                            <div class="menu__position--name">Coca-Cola</div>
+                            <div class="menu__position--price">21</div>
+                        </div>
+                        <div class="menu__description">
+                            bekon / jajko sadzone / fasolka / pieczywo / masło
+                        </div>
+                    </li>
+                    <li class="menu__list--item">
+                        <div class="menu__position">
+                            <div class="menu__position--name">Wiedeńskie</div>
+                            <div class="menu__position--price">22</div>
+                        </div>
+                        <div class="menu__description">
+                            jajka w koszulkach / bagietka / dżem / sder / wędlina
+                        </div>
+                    </li>
+                    <li class="menu__list--item">
+                        <div class="menu__position">
+                            <div class="menu__position--name">Angielskie</div>
+                            <div class="menu__position--price">21</div>
+                        </div>
+                        <div class="menu__description">
+                            bekon / jajko sadzone / fasolka / pieczywo / masło
+                        </div>
+                    </li>
+                    <li class="menu__list--item">
+                        <div class="menu__position">
+                            <div class="menu__position--name">Angielskie</div>
+                            <div class="menu__position--price">21</div>
+                        </div>
+                        <div class="menu__description">
+                            bekon / jajko sadzone / fasolka / pieczywo / masło
+                        </div>
+                    </li>
+                </ul>
+                <!-- Soups -->
+                <h3 class="menu__header">Zupy</h3>
+                <ul class="menu__list">
+                    <li class="menu__list--item">
+                        <div class="menu__position">
+                            <div class="menu__position--name">Angielskie</div>
+                            <div class="menu__position--price">21</div>
+                        </div>
+                        <div class="menu__description">
+                            bekon / jajko sadzone / fasolka / pieczywo / masło
+                        </div>
+                    </li>
+                    <li class="menu__list--item">
+                        <div class="menu__position">
+                            <div class="menu__position--name">Wiedeńskie</div>
+                            <div class="menu__position--price">22</div>
+                        </div>
+                        <div class="menu__description">
+                            jajka w koszulkach / bagietka / dżem / sder / wędlina
+                        </div>
+                    </li>
+                    <li class="menu__list--item">
+                        <div class="menu__position">
+                            <div class="menu__position--name">Angielskie</div>
+                            <div class="menu__position--price">21</div>
+                        </div>
+                        <div class="menu__description">
+                            bekon / jajko sadzone / fasolka / pieczywo / masło
+                        </div>
+                    </li>
+                    <li class="menu__list--item">
+                        <div class="menu__position">
+                            <div class="menu__position--name">Angielskie</div>
+                            <div class="menu__position--price">21</div>
+                        </div>
+                        <div class="menu__description">
+                            bekon / jajko sadzone / fasolka / pieczywo / masło
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!-- Second column -->
+            <div class="menu__column">
+                <!-- Main Dishes -->
+                <h3 class="menu__header">Dania główne</h3>
+                <ul class="menu__list">
+                    <li class="menu__list--item">
+                        <div class="menu__position">
+                            <div class="menu__position--name">Angielskie</div>
+                            <div class="menu__position--price">21</div>
+                        </div>
+                        <div class="menu__description">
+                            bekon / jajko sadzone / fasolka / pieczywo / masło
+                        </div>
+                    </li>
+                    <li class="menu__list--item">
+                        <div class="menu__position">
+                            <div class="menu__position--name">Wiedeńskie</div>
+                            <div class="menu__position--price">22</div>
+                        </div>
+                        <div class="menu__description">
+                            jajka w koszulkach / bagietka / dżem / sder / wędlina
+                        </div>
+                    </li>
+                    <li class="menu__list--item">
+                        <div class="menu__position">
+                            <div class="menu__position--name">Angielskie</div>
+                            <div class="menu__position--price">21</div>
+                        </div>
+                        <div class="menu__description">
+                            bekon / jajko sadzone / fasolka / pieczywo / masło
+                        </div>
+                    </li>
+                    <li class="menu__list--item">
+                        <div class="menu__position">
+                            <div class="menu__position--name">Angielskie</div>
+                            <div class="menu__position--price">21</div>
+                        </div>
+                        <div class="menu__description">
+                            bekon / jajko sadzone / fasolka / pieczywo / masło
+                        </div>
+                    </li>
+                    <li class="menu__list--item">
+                        <div class="menu__position">
+                            <div class="menu__position--name">Angielskie</div>
+                            <div class="menu__position--price">21</div>
+                        </div>
+                        <div class="menu__description">
+                            bekon / jajko sadzone / fasolka / pieczywo / masło
+                        </div>
+                    </li>
+                </ul>
+                <!-- Salads -->
+                <h3 class="menu__header">Sałatki</h3>
+                <ul class="menu__list">
+                    <li class="menu__list--item">
+                        <div class="menu__position">
+                            <div class="menu__position--name">Angielskie</div>
+                            <div class="menu__position--price">21</div>
+                        </div>
+                        <div class="menu__description">
+                            bekon / jajko sadzone / fasolka / pieczywo / masło
+                        </div>
+                    </li>
+                    <li class="menu__list--item">
+                        <div class="menu__position">
+                            <div class="menu__position--name">Wiedeńskie</div>
+                            <div class="menu__position--price">22</div>
+                        </div>
+                        <div class="menu__description">
+                            jajka w koszulkach / bagietka / dżem / sder / wędlina
+                        </div>
+                    </li>
+                    <li class="menu__list--item">
+                        <div class="menu__position">
+                            <div class="menu__position--name">Angielskie</div>
+                            <div class="menu__position--price">21</div>
+                        </div>
+                        <div class="menu__description">
+                            bekon / jajko sadzone / fasolka / pieczywo / masło
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!-- Third column -->
+            <div class="menu__column">
+                <!-- Deserts -->
+                <h3 class="menu__header">Desery</h3>
+                <ul class="menu__list">
+                    <li class="menu__list--item">
+                        <div class="menu__position">
+                            <div class="menu__position--name">Angielskie</div>
+                            <div class="menu__position--price">21</div>
+                        </div>
+                        <div class="menu__description">
+                            bekon / jajko sadzone / fasolka / pieczywo / masło
+                        </div>
+                    </li>
+                    <li class="menu__list--item">
+                        <div class="menu__position">
+                            <div class="menu__position--name">Wiedeńskie</div>
+                            <div class="menu__position--price">22</div>
+                        </div>
+                        <div class="menu__description">
+                            jajka w koszulkach / bagietka / dżem / sder / wędlina
+                        </div>
+                    </li>
+                    <li class="menu__list--item">
+                        <div class="menu__position">
+                            <div class="menu__position--name">Angielskie</div>
+                            <div class="menu__position--price">21</div>
+                        </div>
+                        <div class="menu__description">
+                            bekon / jajko sadzone / fasolka / pieczywo / masło
+                        </div>
+                    </li>
+                </ul>
+                <!-- Drinks -->
+                <h3 class="menu__header">Napoje</h3>
+                <ul class="menu__list">
+                    <li class="menu__list--item">
+                        <div class="menu__position">
+                            <div class="menu__position--name">Coca-Cola</div>
+                            <div class="menu__position--price">5</div>
+                        </div>
+                    </li>
+                    <li class="menu__list--item">
+                        <div class="menu__position">
+                            <div class="menu__position--name">Sprite</div>
+                            <div class="menu__position--price">5</div>
+                        </div>
+                    </li>
+                    <li class="menu__list--item">
+                        <div class="menu__position">
+                            <div class="menu__position--name">Fanta</div>
+                            <div class="menu__position--price">5</div>
+                        </div>
+                    </li>
+                    <li class="menu__list--item">
+                        <div class="menu__position">
+                            <div class="menu__position--name">Sok pomarańczowy</div>
+                            <div class="menu__position--price">9</div>
+                        </div>
+                    </li>
+                    <li class="menu__list--item">
+                        <div class="menu__position">
+                            <div class="menu__position--name">Sok Jabłkowy</div>
+                            <div class="menu__position--price">9</div>
+                        </div>
+                    </li>
+                    <li class="menu__list--item">
+                        <div class="menu__position">
+                            <div class="menu__position--name">Herbata</div>
+                            <div class="menu__position--price">6</div>
+                        </div>
+                    </li>
+                    <li class="menu__list--item">
+                        <div class="menu__position">
+                            <div class="menu__position--name">Kawa</div>
+                            <div class="menu__position--price">6</div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </div>
+    <!-- Gallery -->
+    <section class="bookmark bookmark--gallery" id="gallery">
+        <h2 class="bookmark__header">Galleria</h2>
+        <p class="bookmark__description">Tak wyglądają nasze posiłki.</p>
+    </section>
+    <div class="container">
+        <ul class="gallery"></ul>
+        <ul class="gallery__list">
+            <li class="gallery__list--item">
+                <div class="gallery__aspect--ratio">
+                    <img class="gallery__list--image" src="./images/gallery/1.jpg" alt="Jedzenie 1">
+                </div>
+            </li>
+            <li class="gallery__list--item">
+                <div class="gallery__aspect--ratio">
+                    <img class="gallery__list--image" src="./images/gallery/2.jpg" alt="Jedzenie 2">
+                </div>
+            </li>
+            <li class="gallery__list--item">
+                <div class="gallery__aspect--ratio">
+                    <img class="gallery__list--image" src="./images/gallery/3.jpg" alt="Jedzenie 3">
+                </div>
+            </li>
+            <li class="gallery__list--item">
+                <div class="gallery__aspect--ratio">
+                    <img class="gallery__list--image" src="./images/gallery/4.jpg" alt="Jedzenie 4">
+                </div>
+            </li>
+            <li class="gallery__list--item">
+                <div class="gallery__aspect--ratio">
+                    <img class="gallery__list--image" src="./images/gallery/5.jpg" alt="Jedzenie 5">
+                </div>
+            </li>
+            <li class="gallery__list--item">
+                <div class="gallery__aspect--ratio">
+                    <img class="gallery__list--image" src="./images/gallery/6.jpg" alt="Jedzenie 6">
+                </div>
+            </li>
+            <li class="gallery__list--item">
+                <div class="gallery__aspect--ratio">
+                    <img class="gallery__list--image" src="./images/gallery/7.jpg" alt="Jedzenie 7">
+                </div>
+            </li>
+            <li class="gallery__list--item">
+                <div class="gallery__aspect--ratio">
+                    <img class="gallery__list--image" src="./images/gallery/8.jpg" alt="Jedzenie 8">
+                </div>
+            </li>
+            <li class="gallery__list--item">
+                <div class="gallery__aspect--ratio">
+                    <img class="gallery__list--image" src="./images/gallery/9.jpg" alt="Jedzenie 9">
+                </div>
+            </li>
+        </ul>
+    </div>
+    <!-- Contact -->
+    <section class="bookmark bookmark--contact" id="contact">
+        <h2 class="bookmark__header">Kontakt</h2>
+        <p class="bookmark__description">Porozmawiaj z nami lub zarezerwój stolik.</p>
+    </section>
+    <!-- Form display -->
+    <form action="mailto:kontakt@restauracja.pl" class="contact-form">
+        <div class="container container--smaller">
+
+            <div class="contact-form__info">
+                <div class="contact-form__info-item">
+                    <img src="./images/icons/envelope.svg" alt="E-mail" class="contact-form__info-icon">
+                    <a href="mailto:kontakt@restauracja.pl" class="contact-form__info-link">kontakt@restauracja.pl</a>
+                </div>
+                <div class="contact-form__info-item">
+                    <img src="./images/icons/phone.svg" alt="Mobile" class="contact-form__info-icon">
+                    <a href="tel:664-887-1659" class="contact-form__info-link">664-887-1659</a>
+                </div>
+            </div>
+            <p class="contact-form__description">Jeśli nie znalazłeś na naszej stronie informacji, których potrzebujesz, <br> wyślij formularz kontaktowy lub zadzwoń. <br> Chętnie z Tobą porozmawiazmy i odpowiemy na wszystkie pytania.
+            </p>
+            <div class="contact-form__fields">
+                <input type="text" name="name" class="contact-form__field" placeholder="Podaj Imię i Nazwisko" required>
+                <input type="email" name="e-mail" class="contact-form__field" placeholder="Podaj swój e-mail" required>
+                <textarea class="contact-form__field-message" name="message" rows="10" placeholder="Podaj treść wiadomości" required></textarea>
+            </div>
+            <button class="contact-form__submit__button">Wyślij</button>
+        </div>
+    </form>
+    <!-- Route -->
+    <section class="bookmark bookmark--route" id="route">
+        <h2 class="bookmark__header">Jak dojechać</h2>
+        <p class="bookmark__description">Łatwo nas znaleźć.</p>
+    </section>
+    <!-- Map -->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d586.7812903684483!2d18.52527892803119!3d53.96504508011332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47029c9fd67f9bc5%3A0x3128f8d5a8b20aac!2sLubichowska%2014%2C%2083-200%20Starogard%20Gda%C5%84ski!5e0!3m2!1sen!2spl!4v1586625111296!5m2!1sen!2spl"
+        class="route">
+    </iframe>
+    <footer class="footer">
+        <a href="https://facebook.com" class="footer__link">
+            <img src="./images/icons/social/facebook.svg" alt="Facebook" class="social-icon"> Facebook
+        </a>
+        <a href="https://instagram.com" class="footer__link">
+            <img src="./images/icons/social/instagram.svg" alt="Instagram" class="social-icon"> Instagram
+        </a>
+
+    </footer>
+    <script src="./scripts/main.js"></script>
+</body>
+
+</html>

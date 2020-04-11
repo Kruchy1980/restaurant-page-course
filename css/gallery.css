@@ -1,0 +1,40 @@
+/* Main gallery__list */
+
+.gallery__list {
+    list-style: none;
+    padding-left: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
+}
+
+
+/* gallery__list--item */
+
+
+/* gallery__spect--ratio */
+
+.gallery__aspect--ratio {
+    /* To make the images dimentions equal */
+    padding-top: calc(100% * 9 /16);
+    position: relative;
+}
+
+
+/* gallery__list--image */
+
+.gallery__list--image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* Mnie się osobiście wydaje, że lepiej wyglądają bez object fit */
+    /* object-fit: cover; */
+}
+
+@media(min-width: 768px) {
+    .gallery__list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

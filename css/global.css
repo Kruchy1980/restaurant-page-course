@@ -1,0 +1,19 @@
+/* Global styles file */
+
+
+/* All elements and sudo elements globally */
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+
+/* Body - global */
+
+body {
+    font-size: 16px;
+    /* Font imported from google - roboto condense */
+    font-family: 'Roboto Condensed', sans-serif;
+}

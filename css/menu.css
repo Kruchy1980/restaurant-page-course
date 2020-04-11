@@ -1,0 +1,102 @@
+/* Menu in general  all mob-first*/
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    color: #333;
+    margin: 0 -15px;
+}
+
+
+/* Menu column - flex basis - to make the same width to all of them */
+
+.menu__column {
+    flex-basis: 33%;
+    padding: 0 15px;
+}
+
+
+/* Header style */
+
+.menu__header {
+    font-size: 20px;
+    text-transform: uppercase;
+    transition: 1s;
+}
+
+
+/* Menu list */
+
+.menu__list {
+    list-style: none;
+    padding-left: 0;
+}
+
+
+/* Menu list item gapY */
+
+menu__list--item {
+    margin: 5vh 0;
+}
+
+
+/* Menu position - display */
+
+.menu__position {
+    display: flex;
+    margin: 10px 0;
+    align-items: baseline;
+}
+
+
+/* Mwnu poaition after */
+
+.menu__position::after {
+    content: "";
+    margin: 0 5px;
+    border-top: 2px dotted;
+    flex-grow: 1;
+    order: 2;
+}
+
+
+/* Menu position price ordering */
+
+.menu__position--price {
+    order: 3;
+}
+
+
+/* Menu postion name */
+
+.menu__position--name {
+    text-transform: uppercase;
+}
+
+
+/* Description of menu */
+
+.menu__description {
+    color: #666;
+    font-size: 12px;
+    margin: 5px 0;
+    transition: 1s;
+}
+
+@media(min-width: 600px) {
+    .menu {
+        flex-direction: row;
+    }
+}
+
+@media(min-width: 840px) {
+    .menu {
+        flex-direction: row;
+    }
+    .menu__header {
+        font-size: 38px;
+    }
+    .menu__description {
+        font-size: 14px;
+    }
+}
